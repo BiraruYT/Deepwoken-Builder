@@ -1,0 +1,30 @@
+{
+  "name": "deepwokentools",
+  "version": "0.0.1",
+  "description": "A Site Where Tools For Deepwoken Such As Deepwoken Builder Are Hosted",
+  "private": true,
+  "keywords": [
+    "deepwoken",
+    "deepwokentools",
+    "deepwokenbuilder",
+    "deepwokentalent",
+    "tools",
+    "builder",
+    "talent"
+  ],
+  "license": "GPL-3.0",
+  "author": "CheapPlayz",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config src/js/webpack/webpack.config.dev.js",
+    "build": "webpack --config src/js/webpack/webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
+  }
+}
