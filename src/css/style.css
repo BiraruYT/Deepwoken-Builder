@@ -149,7 +149,7 @@ main {
 .announcement-h1,
 .changelog-h1 {
   display: block;
-  margin: auto auto auto 18px;
+  margin: auto auto auto 24px;
   font-size: 2em;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
@@ -176,8 +176,7 @@ main {
 
 .announcement p {
   position: fixed;
-  margin: auto auto auto 28px;
-  margin-top: 124px;
+  margin: 124px auto auto 28px;
   font-size: 20px;
   font-weight: bold;
   font-family: "JetBrains Mono";
@@ -187,13 +186,14 @@ main {
 }
 
 .version {
-  display: grid;
-  margin-left: 24px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
   border-image: url(../img/border.png) 45%;
   border-image-width: 16px;
   border-image-outset: 2px;
-  width: 100%;
-  max-width: 64px;
+  width: 64px;
   height: 32px;
   color: #ffffff;
   font-family: Lora, "sans-serif";
@@ -207,7 +207,6 @@ main {
   font-weight: bold;
   font-size: 20px;
 }
-
 
 .footer-main {
   padding: 10px;
