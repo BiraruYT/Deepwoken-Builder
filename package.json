@@ -15,7 +15,6 @@
   "license": "GPL-3.0",
   "author": "CheapPlayz",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --config src/js/webpack/webpack.config.dev.js",
     "build": "webpack --config src/js/webpack/webpack.config.prod.js"
   },
