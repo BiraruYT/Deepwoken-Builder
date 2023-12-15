@@ -188,6 +188,7 @@ main {
 
 .version {
   display: grid;
+  margin-left: 24px;
   border-image: url(../img/border.png) 45%;
   border-image-width: 16px;
   border-image-outset: 2px;
