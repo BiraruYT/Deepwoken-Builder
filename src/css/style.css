@@ -42,7 +42,7 @@ main {
   height: 240px;
   color: #202020;
   font-family: Lora,"sans-serif";
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(216, 215, 209);
 }
 
 .announcement {
@@ -59,7 +59,7 @@ main {
   height: 225px;
   color: #202020;
   font-family: Lora,"sans-serif";
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(216, 215, 209);
 }
 
 .credit {
@@ -75,7 +75,7 @@ main {
   height: 502px;
   color: #202020;
   font-family: Lora, "sans-serif";
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(216, 215, 209);
 }
 
 .credit-h1 {
